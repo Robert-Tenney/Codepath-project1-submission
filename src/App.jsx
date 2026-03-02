@@ -1,0 +1,137 @@
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from './assets/vite.svg';
+import placeHolderImg from './assets/placeholder.png';
+import Yuuma from './assets/Yuuma.png';
+import './App.css';
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <>
+      <section id="center">
+        <div className="hero">
+          <img
+            src={placeHolderImg}
+            className="base"
+            width="170"
+            height="179"
+            alt=""
+          />
+        </div>
+        <div>
+          <h1>Touhou characters I really like</h1>
+          <p></p>
+        </div>
+        <button
+          className="counter"
+          onClick={() => setCount((count) => count + 1)}
+        >
+          Count is {count}
+        </button>
+      </section>
+
+      <div className="ticks"></div>
+
+      <section id="next-steps">
+        <div id="docs">
+          <svg className="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#documentation-icon"></use>
+          </svg>
+          <h2>Some characters I really like</h2>
+          <p>All images are from Touhouwiki.net</p>
+          <ul>
+            <li>
+              <a
+                href="https://en.touhouwiki.net/wiki/Yuuma_Toutetsu"
+                target="_blank"
+              >
+                <img className="logo" src={Yuuma} alt="" />
+                If I had to describe her... imagine Kirby but as a Yakuxa boss
+                that uses a spork as a weapon. Also look at her character
+                portiat from Sunken Fossil World
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.touhouwiki.net/wiki/Suika_Ibuki"
+                target="_blank"
+              >
+                <img className="button-icon" src={placeHolderImg} alt="" />
+                So fun fact the image I use for placeholders(which features this
+                character) actually appeared on ESPN of all places{' '}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="social">
+          <svg className="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#social-icon"></use>
+          </svg>
+          <h2>Connect with us</h2>
+          <p>Join the Vite community</p>
+          <ul>
+            <li>
+              <a
+                href="https://en.touhouwiki.net/wiki/Momoyo_Himemushi"
+                target="_blank"
+              >
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/placeholder.png"></use>
+                </svg>
+                Ironically enough Momoyo is my favorite despite being based on a
+                giant dragon eating centipide
+              </a>
+            </li>
+            <li>
+              <a href="https://chat.vite.dev/" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#discord-icon"></use>
+                </svg>
+                Discord
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/vite_js" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#x-icon"></use>
+                </svg>
+                X.com
+              </a>
+            </li>
+            <li>
+              <a href="https://bsky.app/profile/vite.dev" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#bluesky-icon"></use>
+                </svg>
+                Bluesky
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div className="ticks"></div>
+      <section id="spacer"></section>
+    </>
+  );
+}
+
+export default App;
