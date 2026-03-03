@@ -2,6 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from './assets/vite.svg';
 import placeHolderImg from './assets/placeholder.png';
+import Momoyo from './assets/Momoyo.png';
+import Suika from './assets/Suika/png';
 import Yuuma from './assets/Yuuma.png';
 import './App.css';
 
@@ -82,7 +84,7 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/placeholder.png"></use>
+                  <use href="assets/Momoyo.png"></use>
                 </svg>
                 Ironically enough Momoyo is my favorite despite being based on a
                 giant dragon eating centipide
