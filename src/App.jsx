@@ -60,7 +60,7 @@ function App() {
                 href="https://en.touhouwiki.net/wiki/Suika_Ibuki"
                 target="_blank"
               >
-                <img className="button-icon" src={placeHolderImg} alt="" />
+                <img className="button-icon" src={Suika} alt="" />
                 So fun fact the image I use for placeholders(which features this
                 character) actually appeared on ESPN of all places{' '}
               </a>
