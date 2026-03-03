@@ -5,6 +5,8 @@ import placeHolderImg from './assets/placeholder.png';
 import Momoyo from './assets/Momoyo.png';
 import Suika from './assets/Suika/png';
 import Yuuma from './assets/Yuuma.png';
+import Kokoro from './assets/Kokoro.png';
+import Koishi from './assets/Koishi.png';
 import './App.css';
 
 function App() {
@@ -91,7 +93,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://chat.vite.dev/" target="_blank">
+              <a href="https://en.touhouwiki.net/wiki/Hata_no_Kokoro" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -103,7 +105,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://x.com/vite_js" target="_blank">
+              <a href="https://en.touhouwiki.net/wiki/Koishi_Komeiji" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
