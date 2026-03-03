@@ -7,6 +7,7 @@ import Suika from './assets/Suika/png';
 import Yuuma from './assets/Yuuma.png';
 import Kokoro from './assets/Kokoro.png';
 import Koishi from './assets/Koishi.png';
+import Junko from './assets/Junko.png';
 import './App.css';
 
 function App() {
@@ -117,16 +118,17 @@ She was one of the first characters I was introduced to from this franchise.
               </a>
             </li>
             <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
+              <a href="https://en.touhouwiki.net/wiki/Junko" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#bluesky-icon"></use>
+                  <use href="assets/Junko.png"></use>
                 </svg>
-                Bluesky
-              </a>
+                Her theme is great, I really like her design and I find the fandoms decision of making her treat 
+                her partner in crime and one of their minions as her new family to be adorable.
+           </a>
             </li>
           </ul>
         </div>
