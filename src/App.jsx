@@ -99,9 +99,9 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#discord-icon"></use>
+                  <use href="assets/Kokoro.png"></use>
                 </svg>
-                Discord
+             Side rant but OMG her voice in Genso-Wander Reloaded is ADORABLE!!!!
               </a>
             </li>
             <li>
@@ -111,9 +111,9 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#x-icon"></use>
+                  <use href="assets/Koishi.png"></use>
                 </svg>
-                X.com
+She was one of the first characters I was introduced to from this franchise.
               </a>
             </li>
             <li>
