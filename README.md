@@ -46,7 +46,7 @@ GIF created with ...
 
 ## Notes
 
-Having enough space to include images
+Please note that the program I used to intially make the website only allows a maximum of 1MB of attachments for free accounts.
 
 ## License
 
